@@ -1,0 +1,42 @@
+/* pages/profile/profile.wxss */
+
+/* pages/profile/profile.wxss */
+
+.container {
+  background-color: #343434;
+  display: flex;
+  flex-direction: column;
+  color: #FED766;
+  margin: 20px 10px;
+  position: relative;
+  padding: 0 0;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px;
+}
+
+.avatar-lg {
+  top: 20px;
+  right: 50vw;
+  height: 200px;
+  width: 200px;
+  border-radius: 150px;
+}
+
+.card {
+  padding: 20px 20px;
+}
+
+.title {
+  margin: 20px 20px;
+  font-size: 40px;
+}
+
+.title_medium {
+  margin: 20px;
+  font-size: 30px;
+}
+
+
+

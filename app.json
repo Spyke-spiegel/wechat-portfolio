@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profile/profile",
+    "pages/portfolio/portfolio"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#343434",
+    "navigationBarTitleText": "Florent Portfolio",
+    "navigationBarTextStyle":"Light"
+  },
+  "tabBar": {
+    "backgroundColor": "#343434",
+    "borderStyle": "#D3D3D3",
+    "selectedColor": "#D03232",
+    "color": "#FED766",
+    "list": [
+      {
+        "pagePath": "pages/portfolio/portfolio",
+        "iconPath": "image/briefcase.png",
+        "text": "Profile"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "image/home.png",
+        "text": "Portfolio"
+      }
+    ]
+  }
+}

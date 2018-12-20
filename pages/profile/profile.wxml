@@ -1,0 +1,22 @@
+<!--pages/profile/profile.wxml-->
+
+
+<view class="container">
+  <view class="card">
+    <image src="/image/florent_profile.png" alt="Florent Profile picture" class="avatar-lg"></image>
+    <view>
+    <view class='title'><text>Florent Ayot</text></view>
+    <view class="title_medium"><text>Programmer</text></view>
+    <view class='para'><text>After 7 years in the aeronautics industry, I choose to change my life and attend "Le Wagon" coding school.</text></view>
+    <navigator url="https://lewagon.com"> See for yourself</navigator>
+    </view>
+</view>
+
+</view>
+  <view class="card">
+    <ul class="link_social">
+      <li><navigator url="http://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i> Facebook</navigator></li>
+      <li><navigator url="https://www.linkedin.com/in/florent-ayot-6a2564165/" target="blank"><i class="fab fa-linkedin"></i> Linkedin</navigator></li>
+      <li><navigator url="https://www.twitch.tv/spyke_spiegel007" target="blank"><i class="fab fa-twitch"></i> Twitch</navigator></li>
+    </ul>
+</view>
